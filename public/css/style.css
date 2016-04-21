@@ -12,10 +12,22 @@ html, body {
 	margin: 0px;
 }
 #react {
-	position: absolute;
 	top: 0px;
 	left: 0px;
 	padding: 0px;
 	height: 100%;
 	width: 100%;
+  margin-top: 20px;
 }
+
+.container {
+  width: 90%;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ff9100;
+  }
+  
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 1px solid #ffffff;
+  }
